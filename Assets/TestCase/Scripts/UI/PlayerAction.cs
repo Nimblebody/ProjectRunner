@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerAction : MonoBehaviour
 {
     [SerializeField] Transform _cam;
     [SerializeField] GameObject _getItemPanel;
+    [SerializeField] Image[] _itemSlot;
     public float _playerActionDistance;
     public bool active = false;
     RaycastHit hit;
