@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ItemData : MonoBehaviour
 {
-    GameObject[] _obtainedItems; //습득한 아이템리스트
-    ItemPool _itemPool;
+    protected ItemPool _itemPool;
     System.Random _rand;
 
     void Awake(){

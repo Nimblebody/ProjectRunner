@@ -7,7 +7,7 @@ public class PlayerAction : MonoBehaviour
 {
     [SerializeField] Transform _cam;
     [SerializeField] GameObject _getItemPanel;
-    [SerializeField] Image[] _itemSlot;
+    [SerializeField] GameObject[] _itemSlot;
     public float _playerActionDistance;
     public bool active = false;
     RaycastHit hit;
